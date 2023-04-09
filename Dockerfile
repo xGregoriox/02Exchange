@@ -1,4 +1,4 @@
-FROM maven:3-alpine
+FROM adoptopenjdk/openjdk11:alpine-jre
 WORKDIR /appmavenjenkins
 ADD . /appmavenjenkins
 EXPOSE 8090:8090
